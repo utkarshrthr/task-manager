@@ -1,0 +1,63 @@
+.modal-header {
+	padding: 10px 25px;
+}
+
+.modal-header h4 {
+	font-size: 20px;
+}
+
+.form-group.row label {
+	font-size: 15px;
+}
+
+.col-md-2 { 
+	padding-left: 20px;
+}
+
+.col-md-10 {
+	padding-right: 40px; 
+}
+
+.col-md-10 input, .col-md-4 input, form-control.select {
+	height: 35px;
+	font-size: 15px;
+}
+
+.col-md-4 {
+	padding-right: 40px;
+}
+
+.form-group, textarea {
+	margin-bottom: 0.75rem;
+}
+
+.btn-task {
+	color: white;
+	width: 110px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+}
+
+.hidden-task {
+	display: none;
+}
+
+
+.task-board-title hr {
+	width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#delayed-task-board {
+	border: none;
+}
+
+.summary-section {
+	border-right: 1px solid #ccc;
+}
+
+#dashboard-user {
+	display:table;width:100%;height:100%
+}

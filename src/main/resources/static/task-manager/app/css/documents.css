@@ -1,0 +1,280 @@
+#docs-container {
+	height: 90%;
+    padding: 15px 20px;
+    overflow-y: auto; 
+}
+
+#docs-container .row {
+	padding: 15px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.doc.col-md-2 {
+	max-width: 17%;
+	min-width: 17%;
+}
+
+.doc {
+	position: relative;
+	height: 160px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+    border-radius: 2px;
+    flex: 0%; 
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+}
+
+.doc:hover {
+	box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.5);
+}
+
+.doc:hover .doc-format {
+	color: green;
+}
+
+.doc-name {
+	font-size: 14px; 
+	font-weight: 600; 
+	margin-bottom: 0; 
+	margin-top: 6px; 
+	line-height: 25px;
+	width: 80%;
+}
+
+.doc-format {
+	font-size: 77px;
+	color: #ccc;
+}
+
+#no-doc-msg {
+	color: gainsboro;
+    text-align: center;
+    margin-top: 150px;
+    user-select: none;
+    margin-bottom: 20px;
+}
+
+#add-first-doc {
+	width: 200px;
+    height: 40px;
+}
+
+
+/*****************************************/
+
+.note-tags {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.tag {
+	background-color: slateblue;
+    color: white;
+    padding: 2px 7px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+#new-doc-modal-modal .modal-content {
+	border-radius: 2px;
+    box-shadow: 0 0 2px 1px rgba(255,255,254,0.3);
+}
+
+#new-doc-modal .modal-body {
+	padding: 10px;
+}
+
+#new-doc-modal label {
+	font-size: 14px;
+    font-weight: 600;
+}
+
+#new-doc-modal .col-md-1 {
+	width: 12%; max-width: 12%;
+	flex: 0%;
+	padding-left: 30px;
+    padding-right: 0; 
+}
+
+#new-doc-modal .col-md-11 {
+	width: 88%; max-width: 88%;
+    padding-right: 35px;
+}
+
+#new-doc-modal .col-md-11 input.form-control {
+	height: 35px;
+}
+
+
+#new-doc-modal .form-group.row {
+	margin-bottom: 0px;
+}
+
+#new-doc-modal .modal-footer {
+	display: block;
+}
+
+.btn-task {
+	color: white;
+    width: 100px;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;
+    height: 28px;
+    padding: 4px 0px;
+}
+
+#close-doc-btn {
+	margin-left: 10px;
+}
+
+#reset-doc-btn, #add-doc-btn {
+	float: right; margin-right: 15px; 
+}
+
+.bootstrap-tagsinput {
+	width: 100%;
+}
+
+/***********************************************/
+
+.file-upload {
+  	background-color: #ffffff;
+    width: 97.5%;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+.file-upload-btn {
+  	width: 100%;
+    margin: 0;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    transition: all .2s ease;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 2px dashed #444;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  border: 1px dashed #333;
+}
+
+.image-title-wrap {
+  padding: 0 0px 0px 0px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+}
+
+.drag-text h4 {
+  font-weight: 100;
+    text-transform: uppercase;
+    padding: 60px 0;
+}
+
+.file-upload-image {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.remove-image {
+	height: 36px; font-size: 16px; 
+}
+
+.doc-info {
+	cursor: pointer;
+	color:#6495ed;
+	position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 17px;
+}
+
+.doc-download {
+	float: right; 
+	cursor: pointer;
+    font-size: 18px;
+	position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.doc-delete {
+	color: #ff6347;
+	font-size: 16px;
+	float: right; 
+	cursor: pointer;
+}
+
+.doc-info-data {
+	position: absolute;
+	z-index:1100;
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size:13px;
+    padding: 10px 12px 0 10px;
+    text-align: left;
+    background-color: white;
+    display: none;
+}
+
+.doc-info-data p {
+	margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.doc-info-data p b {
+	margin-right: 5px;
+}
+
+.doc-info-data-close {
+	position: absolute;
+    float: right;
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+    right: 10px;
+    top: 5px;
+}
+
+/* dark-mode-css*/
+/*
+
+*/

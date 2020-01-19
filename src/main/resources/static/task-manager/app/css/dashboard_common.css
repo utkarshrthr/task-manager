@@ -1,0 +1,338 @@
+.main-container {
+	width: 100%; height: 100%; padding: 20px 30px;
+	background-color: darkturquoise;
+	
+}
+body{
+	background-color: darkturquoise;
+}
+.progress-container{
+	width: 100px; height: 100px; float: right; margin: 0px; margin-right: 50px;
+}
+
+#myChart {
+	width: 200px; height: 100px; 
+}
+
+#summary {
+	border-bottom: 1px solid #ccc; margin-bottom: 10px; height: 130px; padding: 10px; 
+}
+
+#summary h5 {
+	margin: 5px;width: 200px;float: left; font-weight: bold; font-size: 18px;position: absolute;
+}
+
+.summary-details {
+	float: left;
+    height: 90px;
+    width: 85%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.side-bar {
+	width: 20%;
+	height: 100%;
+	float: left;
+	/*margin-right: 10px;*/
+	background-color: #ffffff;
+	border-right: 1px solid #ddd;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3); 
+}
+
+.badge {
+	float: right;
+    padding: 8px;
+    font-size: 13px;
+    width: 105px;
+    margin-left: 10px;
+    background: lightcoral;
+}
+
+.main-board {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+	padding: 0 10px 10px 10px;
+	
+	
+	
+}
+.propic-container {
+	width: 100%; height: 150px;
+}
+.username h5 {
+	text-align: center;
+}
+.propic {
+	width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    /* background-color: #8067b7; */
+    margin: 35px auto 20px auto;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.3);
+    text-align: center;
+    color: gray;
+    padding: 20px 10px;
+}
+
+.search-container {
+	width: 100%; height: 60px; border-bottom: 1px solid #dddddd; padding: 10px 15px 15px 15px;;
+}
+
+.search-field {
+	width: 400px; float: left; margin-top: 5px;
+} 
+
+.collbut {
+	width: 35px;
+    border-radius: 50%;
+    padding: 4px 6px;
+    height: 35px;
+    font-size: 17px;
+    background: white;
+    color: black;
+    box-shadow: 0px 1px 1px 2px rgba(0,0,0,0.3);
+    float: left; 
+    margin-right: 20px;
+} 
+
+.search {
+	padding: 14px;
+    height: 20px;
+    font-size: 13px;
+}
+
+.logout-container {
+	position: fixed;
+    bottom: 70px;
+    margin: 0 4%;
+    width:120px;
+}
+.show-all-container {
+	position: inherit;
+bottom: 30px;
+    margin:5% 4%;
+}
+
+
+.log-btn {
+	width: 150px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.show-all-btn {
+	width: 150px;
+    font-size: 13px;
+    font-weight: 700;
+}
+ .btn {
+ 	height:30px;
+ 	margin:auto;
+ 	font-size: 13px;
+    font-weight: 700;
+ }
+.user-menu-container {
+	margin: 40px 0px;
+}
+
+.summary-data {
+	padding: 0px 15px;
+    height: 25px;
+    margin: 10px 0 0 0;
+}
+
+.summary-section {
+	width: 24%; float: left; height: 100%; /* border-right:1px solid #ccc; */
+}
+
+.summary-count {
+	float: right;
+	margin-right: 5px;
+}
+
+.add-new-task {
+	width: 150px;
+    float: left;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+    margin: 5px 125px;
+    border-radius:3px;
+    height: 35px;
+}
+
+.task-card {
+    font-size: 13px;padding: 5px 5px 0 5px; 
+    height: 90px; margin-top: 15px;
+    width: 100%; border-radius: 2px; padding: 5px;
+}
+
+.progress-task {
+	box-shadow: 0px 0px 2px 1px rgba(0,0,255,0.5);
+}
+
+.delayed-task {
+	box-shadow: 0px 0px 2px 1px rgba(255,0,0,0.5);
+}
+
+.completed-task {
+	box-shadow: 0px 0px 2px 1px rgba(0,255,0,0.5);
+}
+
+.new-task {
+	box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+}
+
+.task-title {
+	font-weight: bold; /*text-decoration: underline;*/
+	font-size: 14px;
+}
+.task-category {
+	float: right; padding-right: 10px; font-weight: bold; font-size: 12px;
+}
+
+.task-date {
+	float: left; padding-right: 10px; font-weight: bold; font-size: 12px;
+}
+
+li {
+	padding: 10px 0 0 50px; list-style: none;
+}
+
+.task-board {
+	width: 100%; height: 70%;
+}
+
+.board {
+	width: 25%; float: left; height: 90%; padding: 0 10px;    border-right: 1px solid #ccc;
+/*  overflow-y: auto; */
+
+	
+}
+
+.task-board-title {
+	padding: 5px 0 0 40px;
+}
+.task-board-title h6 {
+	font-weight: bolder;
+}
+
+ #sidebarCollapse {
+    width: 35px;
+    height: 35px;
+    background: white;
+    float: right;
+    font-size: 23px;
+    font-weight: 300;
+    color: orangered;
+    margin: 0 10px;
+}
+
+.app-icon:hover {
+	background-color: #28a745;
+	color: #fff;
+}
+
+#sidebarCollapse span {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    background: #555;
+    transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375), color 0s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+}
+
+#sidebarCollapse span:first-of-type {
+    transform: rotate(45deg) translate(2px, 2px);
+}
+
+#sidebarCollapse span:nth-of-type(2) {
+    opacity: 0;
+}
+
+#sidebarCollapse span:last-of-type {
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+#sidebarCollapse.active span {
+    /* no rotation */
+    transform: none;
+    /* all bars are visible */
+    opacity: 1;
+    margin: 5px auto;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    perspective: 1500px; 
+}
+
+#sidebar {
+    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665), color 0s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transform-origin: center left; /* Set the transformed position of sidebar to center left side. */
+}
+#sidebar.active {
+    margin-left: -20%;
+    transform: rotateY(100deg); /* Rotate sidebar vertically by 100 degrees. */
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+        transform: rotateY(100deg);
+    }
+   
+    #sidebar.active {
+        margin-left: 0;
+        transform: none;
+    }
+
+    #sidebarCollapse span:first-of-type,
+    #sidebarCollapse span:nth-of-type(2),
+    #sidebarCollapse span:last-of-type {
+        transform: none;
+        opacity: 1;
+        margin: 5px auto;
+    }
+
+    #sidebarCollapse.active span {
+        margin: 0 auto;
+    }
+
+    #sidebarCollapse.active span:first-of-type {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+
+    #sidebarCollapse.active span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    #sidebarCollapse.active span:last-of-type {
+        transform: rotate(-45deg) translate(1px, -1px);
+    }
+}
+
+.app-icon {
+	width: 35px;
+    border-radius: 50%;
+    padding: 4px 6px;
+    height: 35px;
+    font-size: 17px;
+    background: white;
+    color: black;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.5);
+    float: right; 
+    margin-right: 20px;
+}
+
+li>h6>a {
+	color: black;
+}
+
+.ellipsis {
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

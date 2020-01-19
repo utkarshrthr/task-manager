@@ -1,0 +1,44 @@
+.settings-container {
+	padding: 20px;
+}
+
+.current-theme {
+	font-size: 15px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.switch {
+	width: 60px;
+    float: left;
+    background: cornflowerblue;
+    border-radius: 24px;
+    position: relative;
+    height: 28px;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,255,0.5);
+}
+
+.slider:active, .slider:focus {
+	outline: none;
+}
+
+.slider {
+	position: absolute;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    top: 2px;
+    left: 2px;
+	-webkit-transition: .4s;
+  	transition: .4s;
+}
+
+
+/* .slider:before {
+  -webkit-transition: .4s;
+  transition: .4s;
+} */
+ 

@@ -1,0 +1,25 @@
+.im1 {
+	display: block;
+	margin: auto;
+	width:60%;
+	max-width:100%;
+	height:auto;
+}
+
+.hea {
+	margin-top: 1rem;
+	width:900px;
+    margin-bottom: 0rem;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+h1 {
+	font-size: 84px;
+    line-height: 1.15;
+    letter-spacing: -3px;
+    font-weight:450;
+  	text-align: center;
+}

@@ -1,0 +1,28 @@
+#site-name {
+	color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+ul {
+	width: 40%;
+	display: block;
+	text-align: center;
+}
+
+ul li {
+	width: 33%; float: left; display: inline-block !important; font-size: 18px;
+}
+
+.navbar-nav {
+	 display: inline-block; text-align: center;margin-right:30%;
+}
+
+li>a {
+	color: white;
+    font-weight: bold;
+}
+
+#search input {
+	height: 30px;
+}

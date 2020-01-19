@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+body {
+	/* background-image:url("../images/background_13.png"); */
+background-image: url(../images/c9414e.png) ;
+	background-size: 1436px 200px ;
+	background-position:center 50px;
+	background-repeat: no-repeat;
+	font-family: "Montserrat";
+}
+
+.container {
+	height:92%;
+	
+}
+#test {
+	opacity:1;
+}
+.row {
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+	height:110%
+	
+}
+#signupbox {
+	margin: 0 ;
+	padding-top: 20px;
+}
+
+.panel.panel-info {
+	background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    border-radius: 3px;
+    padding-bottom: 15px;
+}
+
+#icn, #icn2, #icn3, #icn4, #icn5, #icn6, #icn7, #icn8, #icn9, #sel, #labelsel, #icn10 {
+	display: none;
+}
+
+h2 {
+	text-align: center;
+    height: 60px;
+    line-height:70px;
+    font-size: 1em;
+}
+
+hr {
+	margin-top: 0;
+}
+
+.form-group.row {
+	padding:0px 50px 0 45px;	
+}
+
+#submit {
+	height: 35px;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+
+
+.control-label.col-md-3.col-form-label-lg {
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.form-control {
+	font-size: 18px;
+	height: 35px;
+}
+
+.form-group {
+	margin-bottom: 0.5rem;
+}
+
+label {
+	font-size: 17px !important; 
+}

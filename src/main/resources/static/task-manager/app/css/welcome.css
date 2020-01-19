@@ -1,0 +1,16 @@
+.table {
+	width:70%;
+	margin:auto;
+}
+
+nav {
+	background-color: #222;
+}
+
+#icn, #icn2 {
+	display: none;
+}
+
+#loader {
+	display: none; position: fixed;
+}
